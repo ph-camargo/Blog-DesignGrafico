@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.headline {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+/* Navbar */
+#navbar {
+  width: 100%;
+  background: #111;
+  color: #eee;
+  height: 80px;
+  position: fixed;
+}
+
+#navbar-container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+/* Banner */
+#banner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  background-image: url('italia-montanhas-vila-da-montanha-natureza-imagem-de-fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+/* Overlay */
+  background-color: rgba(0,0,0,0.8);
+  background-blend-mode: color;
+}
+
+#banner-container {
+  text-align: center;
+}
+
+#banner-container h2 {
+  font-size: 2.5rem;
+}
+
+#banner-container p {
+  font-size: 1.2rem;
+  padding: 7px 0;
+}
+
+/* lugares */
+#lugares {
+  width: 100%;
+  background: #222;
+  color: #eee;
+  padding: 50px;
+}
+
+#lugares-container {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 50px;
+}
+
+.lugar {
+  display: flex;
+  flex-direction: column;
+  background: #333;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.lugar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#noruega-img {
+  height: 350px;
+  width: 350px;
+  border-radius: 3%;
+}
+
+#italia-img{
+  height: 350px;
+  width: 350px;
+  border-radius: 3%;
+}
+
+#japao-img {
+  height: 350px;
+  width: 350px;
+  border-radius: 3%;
+}
+
+#button {
+  background-color: #adadad;
+  width: 100px;
+}
+
+/* Footer */
+#footer {
+  background: #222;
+  color: #eee;
+  padding: 30px;
+  text-align: center;
+}
